@@ -13,6 +13,7 @@ body {
   --цвет-футер-фон: #2f303a;
   --цвет-кнопки-ховер: #188ce8;
   --color-border-header: #ececec;
+  --time: calc(250ms);
 }
 a {
   text-decoration: none;
@@ -32,6 +33,7 @@ p,
 ul {
   margin: 0;
 }
+
 ul {
   list-style: none;
   padding: 0;
@@ -50,7 +52,7 @@ img {
 .main-header {
   border-bottom: 1px solid var(--color-border-header);
 }
-.page-header {
+.conteiner__header {
   display: flex;
   align-items: center;
 }
@@ -69,17 +71,17 @@ img {
   color: var(--цвет-фокуса);
 }
 /*-----✌️нав список🤞---*/
-.nav-list {
+.main-nav__list {
   display: flex;
 }
 
-.nav-item:not(:last-child) {
+.main-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 .main-nav {
   align-items: center;
 }
-.nav-link {
+.main-nav__link {
   position: relative;
   padding-bottom: 32px;
   padding-top: 32px;
@@ -93,7 +95,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.after::after {
+.main-nav__link--after::after {
   content: "";
   position: absolute;
   bottom: 0;
