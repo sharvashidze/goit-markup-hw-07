@@ -57,3 +57,31 @@
 .main-nav__text {
   color: $focusColor;
 }
+.contacs-block {
+  margin-left: auto;
+}
+.contacs__list {
+  display: flex;
+}
+.contacs__item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts__link {
+  align-items: center;
+  display: inline-flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $mainColor;
+  fill: $mainColor;
+  &:hover,
+  &:focus {
+    color: $focusColor;
+    fill: $focusColor;
+  }
+}
+.contacts__icon {
+  margin-right: 10px;
+}

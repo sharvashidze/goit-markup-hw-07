@@ -74,6 +74,45 @@
   color: #2196f3;
 }
 
+.contacs-block {
+  margin-left: auto;
+}
+
+.contacs__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacs__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts__link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  fill: #757575;
+}
+
+.contacts__link:hover, .contacts__link:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.contacts__icon {
+  margin-right: 10px;
+}
+
 a {
   text-decoration: none;
 }
