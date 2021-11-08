@@ -229,7 +229,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.modal-x {
+.modal__button {
   position: absolute;
   display: inline-flex;
   justify-content: center;
@@ -245,7 +245,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.modal-close {
+.modal__icon {
   position: absolute;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -254,13 +254,13 @@ img {
   fill: var(--цвет-фокуса);
 }
 /*---✌️MODAL FORM Страницы🤞--*/
-.modal-form {
+.modal__form {
   padding: 40px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.modal-title {
+.modal__title {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -298,7 +298,7 @@ img {
 .input-name:focus + .input-icon {
   fill: var(--цвет-фокуса);
 }
-.input-icon {
+.form__icon {
   position: absolute;
   display: inline-block;
   top: 70%;
@@ -311,7 +311,7 @@ img {
   flex-direction: column;
   margin-bottom: 20px;
 }
-.text-area {
+.form__text {
   resize: none;
   width: 100%;
   height: 120px;
