@@ -1030,6 +1030,7 @@
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+  white-space: nowrap;
 }
 
 .product__text {
