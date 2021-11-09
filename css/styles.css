@@ -330,11 +330,11 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.egree {
+.form__link {
   text-decoration: underline;
   color: var(--цвет-фокуса);
 }
-.check-box {
+.form__checkbox {
   margin-bottom: 30px;
 }
 .icon-block {
@@ -345,14 +345,14 @@ img {
   border-radius: 2px;
   margin-right: 7px;
 }
-.chekbox:checked + .icon-block {
+.form__chekbox:checked + .icon-block {
   border-color: var(--цвет-кнопки-ховер);
   background-color: var(--цвет-кнопки-ховер);
   background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
 }
-.chekbox {
+.form__chekbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -363,7 +363,7 @@ img {
   clip: rect(0 0 0 0);
   text-align: center;
 }
-.label-text {
+.form__text-egree {
   display: inline-flex;
   align-items: center;
   font-size: 14px;
@@ -372,7 +372,7 @@ img {
   color: var(--основной-цвет);
 }
 
-.btn-submit {
+.form__button {
   display: inline-block;
   cursor: pointer;
   font-weight: 700;
@@ -396,7 +396,7 @@ img {
   background-color: var(--цвет-кнопки-ховер);
 }
 /*--✌️Характеристики Страницы🤞---*/
-.is-hidden {
+.Specifications__is-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -407,7 +407,7 @@ img {
   clip: rect(0 0 0 0);
   text-align: center;
 }
-.back-icon {
+.Specifications__block {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -422,7 +422,7 @@ img {
 .Specifications {
   padding-top: 94px;
 }
-.Specifications-list {
+.Specifications__list {
   display: flex;
 }
 .Specifications-item {
@@ -431,7 +431,7 @@ img {
 .Specifications-item:not(:last-child) {
   margin-right: 30px;
 }
-.Specifications-title {
+.Specifications__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -439,7 +439,7 @@ img {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.Specifications-text {
+.Specifications__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
