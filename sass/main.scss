@@ -1,4 +1,5 @@
 @import "./utils/variables";
+@import "./base/base";
 @import "./components/main-header";
 @import "./components/section-hero";
 @import "./components/modal";
@@ -10,39 +11,3 @@
 @import "./components/footer";
 @import "./components/portfolio-buttons";
 @import "./components/portfolio-card";
-
-a {
-  text-decoration: none;
-}
-h2,
-h3 {
-  color: $TextColor;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-img {
-  display: block;
-}
-
-.conteiner {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}

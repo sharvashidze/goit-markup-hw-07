@@ -1,3 +1,46 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  color: #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .main-header {
   border-bottom: 1px solid #ececec;
 }
@@ -251,7 +294,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  white-space: nowrap;
 }
 
 .form__group {
@@ -1030,7 +1072,6 @@
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  white-space: nowrap;
 }
 
 .product__text {
@@ -1038,42 +1079,5 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-a {
-  text-decoration: none;
-}
-
-h2,
-h3 {
-  color: #212121;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-img {
-  display: block;
-}
-
-.conteiner {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 /*# sourceMappingURL=main.css.map */
