@@ -20,12 +20,12 @@
 }
 .main-nav {
   align-items: center;
-}
-.main-nav__list {
-  display: flex;
-}
-.main-nav__item:not(:last-child) {
-  margin-right: 50px;
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+  &__list {
+    display: flex;
+  }
 }
 
 .main-nav__link {

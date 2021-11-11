@@ -75,14 +75,14 @@ img {
           align-items: center;
 }
 
+.main-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .main-nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.main-nav__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .main-nav__link {
